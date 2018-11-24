@@ -1,0 +1,52 @@
+#main-head{
+    border: 1px solid black;
+    
+}
+
+#name{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-align: center
+}
+
+#avatar{
+    float: left;
+    margin-right: 3%;
+
+}
+.lead{
+    padding-left: 3%;
+}
+#main-one{
+    margin-right: 35%;
+    margin-left: 2%;
+    padding-top: 1%;
+
+
+  
+    background-color: white;
+   
+}
+#main-main{
+    background-color: lightgray;
+    padding-bottom: 30%;
+    padding-top: 2%;
+
+}
+#div-footer{
+    text-align: center;
+    padding: 2%;
+    background-color: gray;
+    color: white;
+    border-top: 3px solid teal;
+    
+}
+
+#foot{
+    font-size: 70%;
+}
+#about{
+    margin-bottom: 3%;
+    border-bottom: 2px solid lightgray;
+    color: teal;
+}
