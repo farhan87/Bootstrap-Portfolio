@@ -30,7 +30,7 @@
               <span class="icon-bar"></span> <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Farhan Afzal</a>
+            <a class="navbar-brand" href="index.html" id="navbar-brand">Farhan Afzal</a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -48,7 +48,20 @@
         <div class="jumbotron jumbotron-fluid " id="main-one">
           <div class="container" id="jumbo">
             <h1 class="display-4" id="about">Contact</h1>
-            
+            <!-- form starts -->
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="/post" method="post">
+                      <label>Name</label>
+                      <input class="form-control" name="name" placeholder="Name..." /><br />
+                      <label>Email</label>
+                      <input class="form-control" name="email" placeholder="E-mail..." /><br />
+                      <label>Message</label>
+                      <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+                      <input id="sub" class="btn btn-primary" type="submit" value="Send" /><br /><br />
+                    </form>
+                </div>
+            <!-- form ends -->
           </div>
         </div>
       </div>
