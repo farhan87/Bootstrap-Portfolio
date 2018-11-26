@@ -1,27 +1,29 @@
-#main-head{
-    border: 1px solid black;
-    
+#web{
+    border: 1px solid lightgray;
 }
 
 #name{
     padding-bottom: 2%;
     padding-top: 2%;
-    text-align: center
+    background-color: teal;
+    color: white;
+
 }
 
 #avatar{
     float: left;
     margin-right: 3%;
-
+    max-width: 100%;
+    height: auto;
 }
 .lead{
     padding-left: 3%;
 }
 #main-one{
     margin-right: 35%;
-    margin-left: 2%;
+    margin-left: 6%;
     padding-top: 1%;
-
+    padding-bottom: 1%;
 
   
     background-color: white;
@@ -29,7 +31,7 @@
 }
 #main-main{
     background-color: lightgray;
-    padding-bottom: 30%;
+    
     padding-top: 2%;
 
 }
@@ -50,3 +52,124 @@
     border-bottom: 2px solid lightgray;
     color: teal;
 }
+
+#nav-1{
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+
+.portf{  /*portfolio*/
+    width: 150px;
+    height: 150px;
+    
+    display: inline-block;
+    
+} 
+
+.image{
+    width: 100%
+}
+
+.img1  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content1 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img2  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content2 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img3  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content3 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+
+  .img4  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content4 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+
+  .img5  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content5 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img6  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content6 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
