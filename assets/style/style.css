@@ -8,6 +8,18 @@
 label{
     color: gray;
 }
+#btn-1{
+    background-color: black;
+    color: white;
+}
+
+#navbar-one a{
+    background-color: white;
+    color: gray;
+}
+#whit{
+    background-color: white;
+}
 #name{
     padding-bottom: 2%;
     padding-top: 2%;
